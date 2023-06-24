@@ -5,7 +5,14 @@
   "spacing": 4,
   "modules-left": ["mpd", "pulseaudio", "cpu", "memory"],
   "modules-center": ["wlr/workspaces"],
-  "modules-right": ["backlight", "battery", "battery#bat2", "clock", "tray"],
+  "modules-right": [
+    "backlight",
+    "battery",
+    "battery#bat2",
+    "clock",
+    "custom/powermenu",
+    "tray"
+  ],
   "wlr/workspaces": {
     "on-click": "activate",
     "disable-scroll": true,
@@ -131,5 +138,9 @@
     },
     "escape": true,
     "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+  },
+  "custom/powermenu": {
+    "on-click": "sh ~/.config/hypr/configs/rofi/powermenu/powermenu.sh",
+    "format": "󰐥"
   }
 }
