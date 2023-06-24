@@ -11,6 +11,7 @@
     "battery#bat2",
     "clock",
     "custom/powermenu",
+    "tray",
     "tray"
   ],
   "wlr/workspaces": {
