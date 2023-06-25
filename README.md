@@ -8,6 +8,13 @@ This includes:
 - [Rofi](https://github.com/lbonn/rofi)
 - [Waybar](https://github.com/Alexays/Waybar)
 
+## 📦 Prequisites
+
+- Hyprland
+- Rofi
+- Waybar
+- inotify-tools
+
 ## 🙏 Credits
 
 - [adi1090x](https://github.com/adi1090x/rofi) for their huge collection of Rofi themes
