@@ -82,6 +82,10 @@ button:hover {
   border-radius: 10px;
 }
 
+#workspaces {
+  background: #1e1e2e;
+}
+
 #workspaces button.active {
   transition: none;
   box-shadow: inherit;
