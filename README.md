@@ -14,6 +14,7 @@ This includes:
 - Rofi
 - Waybar
 - inotify-tools
+- watershot
 
 ## 🙏 Credits
 
