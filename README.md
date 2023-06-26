@@ -14,7 +14,9 @@ This includes:
 - Rofi
 - Waybar
 - inotify-tools
-- watershot
+- grim
+- slurp
+- grimblast
 
 ## 🙏 Credits
 
