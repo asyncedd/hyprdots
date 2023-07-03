@@ -3,15 +3,23 @@
   "position": "top",
   "height": 30,
   "spacing": 4,
-  "modules-left": ["mpd", "pulseaudio", "cpu", "memory"],
-  "modules-center": ["wlr/workspaces"],
+  "modules-left": [
+    "custom/whitespace",
+    "wlr/workspaces",
+    "mpd",
+    "pulseaudio",
+    "cpu",
+    "memory"
+  ],
+  "modules-center": [],
   "modules-right": [
     "backlight",
     "battery",
     "battery#bat2",
     "clock",
     "custom/powermenu",
-    "tray"
+    "tray",
+    "custom/whitespace"
   ],
   "wlr/workspaces": {
     "on-click": "activate",
@@ -20,7 +28,7 @@
     "all-outputs": false,
     "on-scroll-up": "hyprctl dispatch workspace e+1",
     "on-scroll-down": "hyprctl dispatch workspace e-1",
-    "format": "{name}: {icon}",
+    "format": "{icon}",
     "format-icons": {
       "1": " ",
       "2": " ",
@@ -142,5 +150,8 @@
   "custom/powermenu": {
     "on-click": "sh ~/.config/hypr/configs/rofi/powermenu/powermenu.sh",
     "format": "󰐥"
+  },
+  "custom/whitespace": {
+    "format": " "
   }
 }
